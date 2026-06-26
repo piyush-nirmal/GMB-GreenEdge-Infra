@@ -1,0 +1,86 @@
+import { Post } from "@/lib/types";
+
+export const mockPosts: Post[] = [
+  {
+    id: "post-001",
+    businessId: "biz-001",
+    title: "Summer Plumbing Special – 20% Off Drain Cleaning",
+    content:
+      "Beat the summer heat with our exclusive drain cleaning deal! Professional service, guaranteed results. Book now and save 20% through July 31st.",
+    imageUrl: "/images/post-plumbing.jpg",
+    status: "published",
+    type: "offer",
+    scheduledAt: "2024-07-01T09:00:00Z",
+    publishedAt: "2024-07-01T09:00:00Z",
+    clicks: 142,
+    views: 1840,
+    createdAt: "2024-06-28T14:00:00Z",
+  },
+  {
+    id: "post-002",
+    businessId: "biz-001",
+    title: "Emergency Plumbing – 24/7 Response in Chicago",
+    content:
+      "Burst pipe at 2am? We're here. Rivera's Plumbing offers 24/7 emergency service across all Chicago neighborhoods. One call, fast response.",
+    status: "scheduled",
+    type: "update",
+    scheduledAt: "2024-07-15T08:00:00Z",
+    clicks: 0,
+    views: 0,
+    createdAt: "2024-07-10T10:00:00Z",
+  },
+  {
+    id: "post-003",
+    businessId: "biz-001",
+    title: "New Service: Trenchless Sewer Line Replacement",
+    content:
+      "No digging, no mess. Our trenchless technology replaces your sewer line with minimal disruption to your property.",
+    status: "scheduled",
+    type: "update",
+    scheduledAt: "2024-07-20T10:00:00Z",
+    clicks: 0,
+    views: 0,
+    createdAt: "2024-07-11T09:00:00Z",
+  },
+  {
+    id: "post-004",
+    businessId: "biz-002",
+    title: "Windy City Drainage – Free Inspection This Week",
+    content:
+      "Not sure if your drainage system is working optimally? Get a free inspection from our certified team – no obligation!",
+    status: "published",
+    type: "offer",
+    scheduledAt: "2024-07-05T08:00:00Z",
+    publishedAt: "2024-07-05T08:00:00Z",
+    clicks: 88,
+    views: 970,
+    createdAt: "2024-07-03T11:00:00Z",
+  },
+  {
+    id: "post-005",
+    businessId: "biz-003",
+    title: "Spring Lawn Care Package – Now Available",
+    content:
+      "Get your lawn ready for spring with our comprehensive care package. Includes aeration, overseeding, and fertilization.",
+    status: "draft",
+    type: "offer",
+    scheduledAt: "2024-07-25T09:00:00Z",
+    clicks: 0,
+    views: 0,
+    createdAt: "2024-07-12T15:00:00Z",
+  },
+  {
+    id: "post-006",
+    businessId: "biz-001",
+    title: "Customer Spotlight: 5-Star Review Highlight",
+    content:
+      "\"Rivera's team arrived within the hour and fixed our burst pipe before it caused major damage. Incredible service!\" – Maria T., Lincoln Park",
+    status: "published",
+    type: "update",
+    scheduledAt: "2024-07-08T11:00:00Z",
+    publishedAt: "2024-07-08T11:00:00Z",
+    clicks: 67,
+    views: 720,
+    createdAt: "2024-07-07T09:00:00Z",
+  },
+];
